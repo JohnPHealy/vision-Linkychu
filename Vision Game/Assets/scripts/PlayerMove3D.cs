@@ -4,25 +4,31 @@ using UnityEngine;
 
 public class PlayerMove3D : MonoBehaviour
 {
-    private Rigidbody rb;
+     Rigidbody rb;
     public float moveSpeed = 10f;
+    public float Sprint;
     public float jumpSpeed;
-    public GameObject jumpCheck;
-    bool isGrounded = false;
-
-    // Start is called before the first frame update
+    private bool isGrounded = false;
+    [SerializeField] private LayerMask Ground;
+    float groundDistance = 0.4f;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-
         
     }
 
-    // Update is called once per frame
     private void Update()
+
     {
+        isGrounded = Physics.CheckSphere(transform.position - new Vector3(0, 1, 0), groundDistance, Ground);
+
         Move();
-        
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            Jump();
+        }
+
     }
 
     private void Move()
@@ -30,6 +36,22 @@ public class PlayerMove3D : MonoBehaviour
         float xmovement = Input.GetAxisRaw("Horizontal");
         float zmovement = Input.GetAxisRaw("Vertical");
 
-        transform.position = transform.position + new Vector3(xmovement * moveSpeed * Time.deltaTime, 0,  zmovement * moveSpeed * Time.deltaTime);
+        rb.AddForce(xmovement, 0, zmovement, ForceMode.VelocityChange);
+
+        if(isGrounded && Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            moveSpeed = Sprint;
+            
+        }
+
+       
+
+        
+    }
+
+    private void Jump()
+    {
+
+        rb.AddForce(0, jumpSpeed, 0,  ForceMode.Impulse);
     }
 }

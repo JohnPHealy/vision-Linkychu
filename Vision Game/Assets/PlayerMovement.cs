@@ -6,14 +6,14 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
-    public float moveSpeed = 6f;
+    public float moveSpeed;
     public float runSpeed = 10f;
-    private float speedControl = 6f;
+    [SerializeField]private float speedControl = 6f;
     public float movementMultiplier = 10f;
     public float airMultiplier = 0.6f;
 
-    float grounddrag = 6f;
-    float airdrag = 1.3f;
+    public float grounddrag = 6f;
+    public float airdrag = 1.3f;
 
     float playerHeight = 2f;
 
@@ -69,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+        moveSpeed = speedControl;
     }
 
     private void Update()

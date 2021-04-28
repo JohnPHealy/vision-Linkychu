@@ -57,20 +57,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Checkpoint.cs" />
+    <Compile Include="Assets\scripts\lightdelete.cs" />
     <Compile Include="Assets\PlayerPos.cs" />
+    <Compile Include="Assets\scripts\PlayerMove3D.cs" />
     <Compile Include="Assets\SwitchScriptOff.cs" />
     <Compile Include="Assets\SwitchScript2.cs" />
+    <Compile Include="Assets\scripts\LightGeneration.cs" />
     <Compile Include="Assets\KillPlayer.cs" />
     <Compile Include="Assets\GameMaster.cs" />
     <Compile Include="Assets\SwitchScript.cs" />
+    <Compile Include="Assets\door.cs" />
+    <Compile Include="Assets\scripts\testcamera.cs" />
     <Compile Include="Assets\wallrun.cs" />
     <Compile Include="Assets\CursorFollow.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\scripts\CameraLook.cs" />
     <Compile Include="Assets\ScoreManager.cs" />
     <Compile Include="Assets\FirstPersonCamera.cs" />
-    <Compile Include="Assets\scripts\PlayerMove3D.cs" />
-    <Compile Include="Assets\scripts\CameraLook.cs" />
-    <Compile Include="Assets\door.cs" />
+    <Compile Include="Assets\scripts\Lightimpact.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
