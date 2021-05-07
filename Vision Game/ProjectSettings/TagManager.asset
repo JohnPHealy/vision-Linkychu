@@ -4,24 +4,25 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Darkness
-  - Light
+  - Object
+  - Checkpoint
+  - Game
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Light
+  - Ground
   - Water
   - UI
-  - Ground
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Wall
+  - IgnorePlayer
+  - Stairs
+  - Gun
+  - Object
+  - Checkpoint
+  - Laser
+  - PostProcessing
   - 
   - 
   - 

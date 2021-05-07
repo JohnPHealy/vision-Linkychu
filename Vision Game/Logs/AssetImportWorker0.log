@@ -15,11 +15,11 @@ C:/Users/olayi/Documents/GitHub/vision-Linkychu/Vision Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50476
+50922
 Successfully changed project path to: C:/Users/olayi/Documents/GitHub/vision-Linkychu/Vision Game
 C:/Users/olayi/Documents/GitHub/vision-Linkychu/Vision Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 153.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,67 +35,63 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005609 seconds.
+Registered in 0.006202 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 59.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 132.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.868 seconds
+- Completed reload, in  3.813 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001308 seconds.
+Registered in 0.004394 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 140.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.616 seconds
+- Completed reload, in  2.280 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.3 MB.
+Unloading 3900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 263.3 MB.
+System memory in use after: 263.5 MB.
 
-Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 2311.
-Total: 4.420700 ms (FindLiveObjects: 0.411700 ms CreateObjectMapping: 0.204500 ms MarkObjects: 3.521000 ms  DeleteObjects: 0.281200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/scripts/Lightimpact.cs
-  artifactKey: Guid(1116726f0c3f46940834be7a3935df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/Lightimpact.cs using Guid(1116726f0c3f46940834be7a3935df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4706202cd91f033120fe2f2677f6868') in 0.048247 seconds
-  Import took 0.052827 seconds .
+Unloading 141 unused Assets to reduce memory usage. Loaded Objects now: 4348.
+Total: 5.052000 ms (FindLiveObjects: 0.509800 ms CreateObjectMapping: 0.369700 ms MarkObjects: 3.650400 ms  DeleteObjects: 0.520600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.091333 seconds.
-  path: Assets/scripts/LightGeneration.cs
-  artifactKey: Guid(866e0eebccd12cd48b22f76467323c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/LightGeneration.cs using Guid(866e0eebccd12cd48b22f76467323c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb16d05103b9559d80e3f66d770d273') in 0.004180 seconds
-  Import took 0.008750 seconds .
+  path: Assets/Scenes/WinScreen 1.unity
+  artifactKey: Guid(98912e7ce479cad4fab02a79ff9a6d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WinScreen 1.unity using Guid(98912e7ce479cad4fab02a79ff9a6d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b769bab54f6c57bc13281aad4b67f0') in 0.011695 seconds
+  Import took 0.021928 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.043094 seconds.
-  path: Assets/scripts/LightGeneration.cs
-  artifactKey: Guid(866e0eebccd12cd48b22f76467323c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/LightGeneration.cs using Guid(866e0eebccd12cd48b22f76467323c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb16d05103b9559d80e3f66d770d273') in 0.004961 seconds
-  Import took 0.009534 seconds .
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 173.2 MB.
 
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 4348.
+Total: 6.246400 ms (FindLiveObjects: 0.585100 ms CreateObjectMapping: 0.397800 ms MarkObjects: 4.779900 ms  DeleteObjects: 0.481400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
